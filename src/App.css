@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
-}
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ :root {
+   --pink-color: #fbb5c9;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .container {
+   width: 100%;
+   max-width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+   position: relative;
+   float: none;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .row {
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin-right: -15px;
+   margin-left: -15px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .col {
+   position: relative;
+   padding-right: 15px;
+   padding-left: 15px;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+ .text-white {
+   color: #fff;
+ }
+
+ body h2 {
+   font-weight: 800;
+   font-size: 45px;
+   position: relative;
+   display: inline-block;
+   color: #12265a;
+   margin: 0;
+ }
+
+
+ body img {
+   max-width: 100%;
+   height: auto;
+   width: auto;
+   max-height: 100%;
+   margin: 0 auto;
+ }
+
+ body a {
+   outline: none;
+   color: #19445a;
+   display: inline-block;
+   vertical-align: top;
+   text-decoration: none;
+ }
+
+ body ul {
+   list-style: none;
+   padding: 0;
+ }
+
+ body p {
+   color: #19445a;
+ }
+
+ body h1,
+ body h3,
+ body h4,
+ body h5,
+ body h6 {
+   font-family: sans-serif;
+   color: #19445a;
+
+ }
+
+ .w-100 {
+  width : 100%;
+ }
+
+ body h1 {
+   font-size: 50px;
+ }
+
+ body h2 {
+   font-size: 45px;
+ }
+
+ body h3 {
+   font-size: 30px;
+ }
+
+ body h4 {
+   font-size: 20px;
+ }
+
+ body h5 {
+   font-size: 18px;
+ }
+
+ body h6 {
+   font-size: 16px;
+ }
+
+ .sub-headings h2::after {
+   content: "";
+   background: #f6c9db;
+   position: absolute;
+   left: 0;
+   height: 25px;
+   right: 0;
+   z-index: -1;
+   bottom: 0;
+ }
+
+ *::-webkit-input-placeholder {
+   color: gray;
+   opacity: 1;
+ }
+

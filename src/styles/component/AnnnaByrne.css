@@ -1,0 +1,169 @@
+.anna-col {
+    width: 50%;
+    z-index: 1;
+
+}
+
+.anna-section {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.anna-img {
+    width: 85%;
+    z-index: 1;
+}
+
+.anna-img img {
+    border-radius: 35px;
+}
+
+.anna-section {
+    background-color: #f2f6ff;
+    z-index: -2;
+}
+
+.anna-text h4 {
+    color: #45b3df;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.anna-data li {
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+}
+
+.anna-data li h5 {
+    padding-right: 10px;
+    margin: 0;
+}
+
+.anna-data span {
+    font-size: 18px;
+}
+
+.anna-text h2 {
+    font-size: 50px;
+}
+
+.anna-icons li a {
+    height: 40px;
+    color: #fff;
+    background-color: #45b3df;
+    width: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.anna-icons li {
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+
+.anna-icons li .facebook {
+    background-color: #456eda;
+}
+
+.anna-icons li .youtube {
+    background-color: #f985a5;
+}
+
+
+
+.anna-border:after {
+    content: "";
+    /* height: 100px; */
+    width: 100%;
+    border: 2px dashed var(--pink-color);
+    position: absolute;
+    top: 40px;
+    left: 0;
+    bottom: 40px;
+    border-radius: 30px;
+    z-index: 0;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .anna-col {
+        width: 100%;
+    }
+
+    .anna-img {
+        width: 90%;
+    }
+
+    .anna-border:after {
+        border: none;
+    }
+
+    .anna-text {
+        padding-left: 60px;
+        padding-top: 30px;
+    }
+
+    .anna-section {
+        padding-top: 60px;
+    }
+}
+
+
+/*---------- portrait mobile view -------------*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    .anna-col {
+        width: 100%;
+    }
+
+    .anna-img {
+        width: 100%;
+    }
+
+    .anna-border:after {
+        border: none;
+    }
+
+    .anna-text {
+        padding-top: 30px;
+    }
+
+    .anna-section {
+        padding-top: 20px;
+    }
+}
+
+/*---------- portrait mobile view -------------*/
+@media only screen and (max-width: 480px) {
+
+
+    .anna-col {
+        width: 100%;
+    }
+
+    .anna-img {
+        width: 100%;
+    }
+
+    .anna-border:after {
+        border: none;
+    }
+
+    .anna-text {
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .anna-section {
+        padding-top: 20px;
+    }
+}

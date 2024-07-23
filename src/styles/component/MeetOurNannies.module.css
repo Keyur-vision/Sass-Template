@@ -1,0 +1,194 @@
+.MeetOurNannies {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.nannies {
+    width: 50%;
+}
+
+.nannies1 {
+    display: flex;
+    align-items: end;
+}
+
+.nanniesBabyImg {
+    width: 60%;
+}
+
+.nanniesBabyImg img {
+    border-radius: 30px;
+}
+
+.nanniesformData {
+    background-color: #45b3df;
+    width: 60%;
+    padding: 25px;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+.nanniesForm {
+    border: 2px dashed #fff;
+    border-radius: 30px;
+    padding: 35px;
+}
+
+.formInput {
+    border-radius: 44px;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.formTextarea {
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    font-family: sans-serif;
+}
+
+.formBtn a {
+    background: #ffc85b;
+    padding: 15px 0;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.MeetOurNanniesHeadingTwo::after {
+    background-color: #f9dfad !important;
+}
+
+.MeetOurNanniesText p {
+    font-family: sans-serif;
+    line-height: 35px;
+    font-size: 18px;
+    padding: 30px 0px;
+}
+
+.MeetOurNanniesList li span {
+    color: #fff;
+    background: #45b3df;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.MeetOurNanniesList li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.MeetOurNanniesList li h4 {
+    padding-left: 20px;
+    font-weight: 800;
+}
+
+.MeetOurNanniesCenter {
+    padding-left: 50px;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nannies {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nannies1 {
+        width: 100%;
+    }
+
+    .nanniesForm {
+        border: 2px dashed #fff;
+        border-radius: 30px;
+        padding: 90px 40px;
+    }
+
+    .MeetOurNanniesCenter {
+        padding-top: 100px;
+    }
+
+    .MeetOurNannies {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .nannies {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .MeetOurNanniesCenter {
+        padding-top: 100px;
+    }
+
+    .nanniesformData {
+        background-color: #45b3df;
+        width: 100%;
+        padding: 25px;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .nanniesBabyImg {
+        width: 100%;
+    }
+
+    .MeetOurNannies {
+        padding-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .nannies {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nanniesformData {
+        background-color: #45b3df;
+        width: 100%;
+        padding: 25px;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .nanniesBabyImg {
+        width: 100%;
+    }
+
+    .sub-headings h2 {
+        font-size: 20px;
+    }
+
+    .MeetOurNanniesCenter {
+        padding-top: 60px;
+        padding-left: 0px;
+
+    }
+
+    .MeetOurNannies {
+        padding-bottom: 20px;
+    }
+
+}

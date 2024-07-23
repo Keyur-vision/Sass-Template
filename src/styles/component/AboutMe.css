@@ -1,0 +1,50 @@
+.About-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: end;
+}
+
+.aboutMe {
+    padding-top: 80px;
+}
+
+.About-icons li svg {
+    width: 35px;
+    background: green;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    padding: 7px;
+    margin: 0 7px;
+}
+
+.About-icons li:first-child svg,
+.About-icons li:last-child svg {
+    background-color: #45b3df;
+}
+
+.about-display-inline li:nth-child(2) svg {
+    background-color: #456eda;
+}
+
+.About-icons li:nth-child(3) svg {
+    background-color: #f985a5;
+}
+
+.About-icons li {
+    margin: 0;
+}
+
+.About-ul li p {
+    padding-top: 10px;
+}
+
+.AboutShareFontSize {
+    font-size: 20px;
+}
+
+.about-display-inline li {
+    display: inline;
+    margin: 0;
+}

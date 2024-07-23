@@ -1,0 +1,147 @@
+.theySay {
+    padding-top: 40px;
+}
+
+.theySayText {
+    width: 45%;
+    line-height: 35px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.theycol {
+    width: calc(100% / 3);
+
+}
+
+.theySayData {
+    padding: 35px;
+    background-color: #fa9db7;
+    border-radius: 35px;
+    font-weight: 400;
+}
+
+.theySayIcon {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    font-size: 55px;
+    color: #ffbace;
+    z-index: -1;
+}
+
+.subcol .theySayData p {
+    color: white;
+    line-height: 34px;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.thetSayImg {
+    width: 75px;
+}
+
+.thetSayImg img {
+    border-radius: 50%;
+}
+
+.theySayAllText {
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.theySayCircle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -30px;
+    z-index: -1;
+}
+
+.thetSayTextEnd {
+    display: flex;
+    justify-content: end;
+}
+
+.theySayName p {
+    color: gray;
+}
+
+.theySayName {
+    padding-left: 20px;
+}
+
+.theySaypinkColor {
+    background: #FA9DB7;
+}
+
+.theySayBlueColor {
+    background-color: #45b3df;
+}
+
+.theySayBlueColor .theySayIcon {
+    color: #70c5e6;
+}
+
+.theySayYellowColor {
+    background-color: #ffc85b;
+}
+
+.theySayYellowColor .theySayIcon {
+    color: #ffe0a3;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .theycol {
+        width: 50%;
+    }
+
+    .theySayText {
+        width: 50%;
+    }
+
+    .services-text {
+        padding-top: 20px !important;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .theycol {
+        width: 50%;
+    }
+
+    .theySayText {
+        width: 80%;
+    }
+
+    .theySay {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .theycol {
+        width: 100%;
+    }
+
+    .theySayText {
+        width: 100%;
+    }
+
+    .theySay {
+        padding-top: 20px;
+    }
+
+}

@@ -1,0 +1,78 @@
+.hero-img {
+    background: url("../../assets/images/baby1.jpg") no-repeat center;
+    height: 650px;
+    z-index: -1;
+}
+
+.hero-headings h2 {
+    background: var(--pink-color);
+    font-size: 45px;
+    margin: 30px 0;
+    font-weight: 800;
+    color: #ffff;
+    padding: 2px 15px;
+    border-radius: 16px;
+    display: inline;
+}
+
+.headings-space {
+    padding-top: 35px;
+}
+
+.hero-headings .blue-color {
+    display: inline;
+    background-color: #79c8e8;
+}
+
+.hero-img .container {
+    height: 100%;
+}
+
+.hero-text {
+    height: 100%;
+}
+
+.hero-contact {
+    padding-top: 60px;
+}
+
+.hero-btn a {
+    background: #ffc85b;
+    padding: 18px 50px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.hero-btn {
+    padding-right: 30px;
+}
+
+.contact-number h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.mobile-icon {
+    font-size: 40px;
+    color: #fa9db7;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .hero-headings h2 {
+        font-size: 30px !important;
+        width: 70%;
+    }
+
+    .contact-number {
+        padding-top: 23px !important;
+    }
+
+    .hero-contact {
+        padding-top: 40px;
+    }
+}

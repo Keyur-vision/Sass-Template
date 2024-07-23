@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import { Fragment } from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import Services from './components/Services';
+import AnnnaByrne from './components/AnnnaByrne';
+import ThaySay from './components/ThaySay';
+import MeetOurNannies from './components/MeetOurNannies';
+import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Header />
+      <HeroSection />
+      <Services />
+      <AnnnaByrne />
+      <ThaySay />
+      <MeetOurNannies />
+      <Contact />
+      <AboutMe />
+      <Footer />
+    </Fragment>
   );
 }
 
